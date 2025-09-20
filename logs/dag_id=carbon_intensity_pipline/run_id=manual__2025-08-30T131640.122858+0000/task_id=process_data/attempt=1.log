@@ -1,0 +1,11 @@
+{"timestamp":"2025-08-30T13:17:02.616141","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-08-30T13:17:02.616645","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-30T13:17:03.162421Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-30T13:17:03.236399Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-30T13:17:03.236907Z","level":"info","event":"Current task name:process_data","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-30T13:17:03.237179Z","level":"info","event":"Dag name:carbon_intensity_pipline","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-30T13:17:03.386315Z","level":"info","event":"Data cleaned and saved","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-30T13:17:03.387009","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-08-30T13:17:03.582730Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-30T13:17:03.583318Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-30T13:17:03.583884Z","level":"info","event":"Task operator:<Task(PythonOperator): process_data>","chan":"stdout","logger":"task"}
